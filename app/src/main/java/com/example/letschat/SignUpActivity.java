@@ -29,6 +29,7 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         getSupportActionBar().hide();
+
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 
